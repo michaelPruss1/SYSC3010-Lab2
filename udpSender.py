@@ -13,7 +13,7 @@ if numMessage < 0:
 s = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
 port = int(textport)
 server_address = (host, port)
-my_address = (host, 1001)
+my_address = (host, 1011)
 s.bind(my_address)
 
 while 1:
